@@ -1,0 +1,40 @@
+        span {
+            font-family: 'Send Flowers', cursive;
+        }
+
+        #slider {
+            overflow: auto;
+            display: flex;
+        }
+
+        .slide {
+            margin-left: 20px;
+            height: 170px;
+            border-radius: 20px;
+        }
+
+        .slide img {
+            border-radius: 20px;
+        }
+
+        #slider::-webkit-scrollbar {
+            background: pink;
+            width: 5px;
+            height: 5px;
+        }
+
+        #slider::-webkit-scrollbar-thumb {
+            background-color: brown;
+        }
+
+        #title {
+            width: 25px;
+            height: 25px;
+            background: blue;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            position: absolute;
+            top: 8px;
+        }
+    
